@@ -1,0 +1,84 @@
+/* Reset básico para remover margens padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    background-color: #1e293b;
+    color: #38bdf8;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #38bdf8;
+}
+
+/* Conteúdo principal (<main>) */
+main {
+    max-width: 700px;
+    width: 90%;
+    background-color: #1e293b;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Títulos */
+h1 {
+    color: #fbbf24;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #38bdf8;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #cbd5e1;
+}
+
+/* Imagem */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 2px solid #38bdf8;
+}
+
+/* Rodapé */
+footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: #1e293b;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    color: #94a3b8;
+    border-top: 1px solid #334155;
+}
